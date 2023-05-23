@@ -73,7 +73,7 @@ const Buat = () => {
     e.preventDefault()
     fetchSurvei();
     console.log(user);
-    swal("Jawaban anda telah direkam", "success");
+    swal("Jawaban anda telah direkam", "Tekan tombol OK", "success");
   };
 
   const createItem = (data) => {
